@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  margin: 0rem;
+  padding: 0em;
+
+  background-image: url("../images/softwareEngineers.jpg");
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem;
+  padding: 0em;
+  height: 100%;
+
+
+  background-color: #6B48FF;
+  opacity: 0.9;
+}
+
+
+
+#mainSurveyContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  opacity: 0.9;
+}
+
+#mainSurveyHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-surveyContent {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #0D3F67;
+
+  height: 100%;
+  width: 85%;
+  opacity: 0.8;
+  border-radius: .3rem;
+
+
+
+  box-shadow: .3rem -.5rem .2rem rgba(0, 0, 0, .4);
+}
+
+
+
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: .8rem;
+}
+
+#main-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#main-form p {
+  margin-left: .8rem;
+}
+
+
+.labelInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: .4rem;
+  width: 80%;
+
+  font-size: 1.28rem;
+  height: 100%;
+  margin-left: .8rem;
+}
+
+.labelInputContainer input[type="text"] {
+  background-color: #FFFFFF;
+  opacity: 1;
+  width: 80%;
+
+  border-radius: .4rem;
+}
+
+
+
+
+
+
+label[for="radioButton1"]{
+
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+label[for="radioButton2"]{
+  display: flex;
+  flex-direction: row;
+}
+
+label[for="radioButton3"]{
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+.labelInputContainer select {
+  width: 80%;
+}
+
+
+
+
+#commentArea {
+  width: 80%;
+  border-radius: .2rem;
+}
+
+
+#surveyButton {
+
+  color: #FFFFFF;
+  background-color: #1EE3CD;
+  margin-top: .8rem;
+  width: 40%;
+
+  align-self: center;
+  border-radius: .4rem;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: .3rem;
+}

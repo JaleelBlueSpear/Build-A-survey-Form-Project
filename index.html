@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Standard Tech Quality Survey</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+    <div id="mainSurveyContainer">
+        <header id="mainSurveyHeader"> <!-- flexBox -->
+          <h1>Standard Tech Quality Survey</h1>
+        </header>
+        <main id="main-surveyContent">
+          <div id="form-container"> <!-- flexBox -->
+            <form id="main-form" action="" method="POST"><!-- FlexBox -->
+              <label class="labelInputContainer" for="name"> <!-- flexBox -->
+                Name
+                <input id="name" type="text" placeholder="Enter your name">
+              </label>
+              <label class="labelInputContainer" for="email">
+                Email
+                <input id="email" type="text" placeholder="Enter your Email">
+              </label>
+              <label class="labelInputContainer" for="age">
+                Age
+                <input id="age" type="text" placeholder="Age">
+              </label>
+              <label class="labelInputContainer" for="developerLevel">
+                Experience
+                <select id="developerLevel">
+                  <option>Select your developer Skill Level</option>
+                  <option>Beginner</option>
+                  <option>Intermediate</option>
+                  <option>Advanced</option>
+                  <option>Junior Engineer</option>
+                  <option>Senior Engineer</option>
+                  <option>Lead Systems architect</option>
+                </select>
+              </label>
+              <label class="labelInputContainer" for="radioButton1">
+                <input id="radioButton1" type="radio" name="recomendationButton"
+                        value="Definitely"> Definitely
+              </label>
+              <label class="labelInputContainer" for="radioButton2">
+                <input id="radioButton2" type="radio" name="recomendationButton"
+                        value="Maybe"> Maybe
+              </label>
+              <label class="labelInputContainer" for="radioButton3">
+                <input id="radioButton3" type="radio" name="recomendationButton"
+                          value="Not Sure"> Not Sure
+              </label>
+              <p>What would you like to see changed in Standard Tech ? </p>
+              <label class="labelInputContainer" for="checkbox1">
+                <input name="ServicesAndProducts" id="checkbox1" type="checkbox" value="developer tools"> Developer Tools
+              </label>
+              <label class="labelInputContainer" for="checkbox2">
+                <input name="ServicesAndProducts" value="Frame Works" id="checkbox2" type="checkbox"> Frame works
+              </label>
+              <label class="labelInputContainer" for="checkbox3">
+                <input id="checkbox3" name="ServicesAndProducts" type="checkbox" value="PWA Single Page application"> PWA Single Page application
+              </label>
+              <p>Do you have any comments?</p>
+              <label class="labelInputContainer" for="CommentArea">
+                <textarea id="CommentArea" cols="63" rows="10" name="comments"></textarea>
+              </label>
+
+              <input id="surveyButton" type="submit" value="Submit">
+            </form>
+          </div>
+
+          <footer>Standard Tech &copy;</footer>
+        </main>
+    </div>
+  </body>
+</html>
