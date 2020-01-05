@@ -32,7 +32,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   opacity: 0.9;
 }
 
@@ -44,17 +43,12 @@ body {
 
 #main-surveyContent {
   display: flex;
-
   flex-direction: column;
   background-color: #0D3F67;
-
   height: 100%;
   width: 85%;
   opacity: 0.8;
   border-radius: .3rem;
-
-
-
   box-shadow: .3rem -.5rem .2rem rgba(0, 0, 0, .4);
 }
 
@@ -85,7 +79,6 @@ body {
   flex-direction: column;
   margin-top: .4rem;
   width: 80%;
-
   font-size: 1.28rem;
   height: 100%;
   margin-left: .8rem;
@@ -95,22 +88,15 @@ body {
   background-color: #FFFFFF;
   opacity: 1;
   width: 80%;
-
   border-radius: .4rem;
 }
 
 
-
-
-
-
 label[for="radioButton1"]{
-
   display: flex;
   flex-direction: row;
-
-
 }
+
 
 label[for="radioButton2"]{
   display: flex;
@@ -118,7 +104,6 @@ label[for="radioButton2"]{
 }
 
 label[for="radioButton3"]{
-
   display: flex;
   flex-direction: row;
 }
@@ -128,9 +113,6 @@ label[for="radioButton3"]{
   width: 80%;
 }
 
-
-
-
 #commentArea {
   width: 80%;
   border-radius: .2rem;
@@ -138,12 +120,10 @@ label[for="radioButton3"]{
 
 
 #surveyButton {
-
   color: #FFFFFF;
   background-color: #1EE3CD;
   margin-top: .8rem;
   width: 40%;
-
   align-self: center;
   border-radius: .4rem;
 }
