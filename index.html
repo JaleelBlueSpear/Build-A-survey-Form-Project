@@ -14,17 +14,30 @@
         <main id="main-surveyContent">
           <div id="form-container"> <!-- flexBox -->
             <form id="main-form" action="" method="POST"><!-- FlexBox -->
+              <label class="labelInputContainer" for="age">
+                Age
+                <input id="age" type="text" placeholder="Age">
+              </label>
               <label class="labelInputContainer" for="name"> <!-- flexBox -->
                 Name
                 <input id="name" type="text" placeholder="Enter your name">
               </label>
+              <label class="labelInputContainer" for="race">
+                Race
+                <select>
+                  <option>Select your race</option>
+                  <option>African American</option>
+                  <option>Cacausian</option>
+                  <option>Non white Hispanic</option>
+                  <option>Native</option>
+                  <option>Asian</option>
+                  <option>Semetic</option>
+                  <option>Other</option>
+                </select>
+              </label>
               <label class="labelInputContainer" for="email">
                 Email
                 <input id="email" type="text" placeholder="Enter your Email">
-              </label>
-              <label class="labelInputContainer" for="age">
-                Age
-                <input id="age" type="text" placeholder="Age">
               </label>
               <label class="labelInputContainer" for="developerLevel">
                 Experience
@@ -37,18 +50,6 @@
                   <option>Senior Engineer</option>
                   <option>Lead Systems architect</option>
                 </select>
-              </label>
-              <label class="labelInputContainer" for="radioButton1">
-                <input id="radioButton1" type="radio" name="recomendationButton"
-                        value="Definitely"> Definitely
-              </label>
-              <label class="labelInputContainer" for="radioButton2">
-                <input id="radioButton2" type="radio" name="recomendationButton"
-                        value="Maybe"> Maybe
-              </label>
-              <label class="labelInputContainer" for="radioButton3">
-                <input id="radioButton3" type="radio" name="recomendationButton"
-                          value="Not Sure"> Not Sure
               </label>
               <p>What would you like to see changed in Standard Tech ? </p>
               <label class="labelInputContainer" for="checkbox1">
